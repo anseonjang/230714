@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* reset */
+* { margin: 0; padding: 0; } 
+ul,li { margin: 0; padding: 0; list-style: none; } 
+#attrTabLine { width: 1000px; margin: 30px auto; } 
+#attrTabLine ul { display: flex; justify-content: space-between; border-bottom: solid 1px #b6b6b6; margin-bottom: 20px; padding: 20px 0 20px 0; box-sizing: border-box; } 
+#attrTabLine ul li a { color: #000000; display: block; font-size: 20px; text-decoration: none; font-weight: bold; font-family: 'Noto Sans CJK KR', sans-serif; } 
+#attrTabLine ul li a:hover,
+#attrTabLine ul li a:focus { color: #118eff; } 
+#attrTabLine .frame img { width: 1000px; height: 185px; } 
+/* font */
+@import url('https://cdn.jsdelivr.net/npm/noto-sans-cjk-kr@latest/css/NotoSansCJKkr.css'); 
